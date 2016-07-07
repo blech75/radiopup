@@ -1,0 +1,9 @@
+# mac cruft
+.DS_Store
+
+# node cruft
+node_modules
+npm-debug.log
+
+# heroku cruft
+*.env
