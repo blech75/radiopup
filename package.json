@@ -19,7 +19,10 @@
   "bugs": {
     "url": "https://github.com/blech75/radiopup/issues"
   },
-  "engines" : {
-    "npm" : "~4.4.7"
+  "engines": {
+    "npm": "~4.4.7"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
   }
 }
