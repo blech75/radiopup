@@ -18,5 +18,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/blech75/radiopup/issues"
+  },
+  "engines" : {
+    "npm" : "~4.4.7"
   }
 }
