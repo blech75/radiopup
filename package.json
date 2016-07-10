@@ -1,6 +1,6 @@
 {
   "name": "radiopup",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "RadioPup fetches you extended information about what's currently playing on your favorite radio station.",
   "main": "index.js",
   "bin": "./lib/cli.js",
@@ -26,6 +26,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "lodash": "^4.13.1",
+    "mongoose": "^4.5.3",
     "superagent": "^2.0.0"
   }
 }
