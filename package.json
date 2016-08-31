@@ -1,6 +1,6 @@
 {
   "name": "radiopup",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "RadioPup fetches you extended information about what's currently playing on your favorite radio station.",
   "main": "index.js",
   "bin": "./lib/cli.js",
