@@ -7,7 +7,7 @@ Organized by effort, in rough priority/importance order.
 
 * clean up and standardize CLI output
 * make require order consistent (external modules then local modules)
-* proper logging infrastructure (remove console.log()s) with debug/errors
+* use winston, etc. for proper logging infrastructure (remove console.log()s) with debug/errors
 * clean up internal terminology/nomenclature (tracks, songs, tracklist)
 * add editorconfig, etc.
 * add npm dependency check tool
@@ -39,11 +39,13 @@ Organized by effort, in rough priority/importance order.
 
 * timezone math via moment.js
 * learn more about mongoDB best practices (index, profiling, etc.)
+* ES6 syntax
 
 
 ### Not yet a fully-formed idea / Needs some planning & thought
 
 * schema validation
+* add tests w/ HTTP request mocking
 * searching/reporting (CLI interface, HTTP API, front-end client, etc.)
 * metadata retrieval scheme
 * database migration
