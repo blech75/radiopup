@@ -5,7 +5,6 @@ Organized by effort, in rough priority/importance order.
 
 ### Low-hanging fruit / Straightforward
 
-* fix potential race condition with HTTP request proceeding before mongo connection is established.
 * clean up and standardize CLI output
 * make require order consistent (external modules then local modules)
 * proper logging infrastructure (remove console.log()s) with debug/errors
