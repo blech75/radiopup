@@ -5,9 +5,9 @@ Organized by effort, in rough priority/importance order.
 
 ### Low-hanging fruit / Straightforward
 
-* clean up and standardize CLI output
+* clean up and standardize CLI output; use winston, etc. for proper logging infrastructure (remove console.log()s) with debug/errors
+* change HTTP UA
 * make require order consistent (external modules then local modules)
-* use winston, etc. for proper logging infrastructure (remove console.log()s) with debug/errors
 * clean up internal terminology/nomenclature (tracks, songs, tracklist)
 * add editorconfig, etc.
 * add npm dependency check tool
@@ -50,3 +50,4 @@ Organized by effort, in rough priority/importance order.
 * metadata retrieval scheme
 * database migration
 * dockerize
+* consider normalizing (unflatten) data model
