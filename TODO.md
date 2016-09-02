@@ -5,7 +5,7 @@ Organized by effort, in rough priority/importance order.
 
 ### Low-hanging fruit / Straightforward
 
-* clean up and standardize CLI output; use winston, etc. for proper logging infrastructure (remove console.log()s) with debug/errors
+* add optional file transport for logger that outputs log level + timestamp, new file for each run.
 * change HTTP UA
 * make require order consistent (external modules then local modules)
 * clean up internal terminology/nomenclature (tracks, songs, tracklist)
