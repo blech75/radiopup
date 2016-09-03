@@ -5,6 +5,8 @@ Organized by effort, in rough priority/importance order.
 
 ### Low-hanging fruit / Straightforward
 
+* deploy to heroku (config via env), local heroku setup
+  * need mongodb as service
 * add optional file transport for logger that outputs log level + timestamp, new file for each run.
 * change HTTP UA
 * make require order consistent (external modules then local modules)
@@ -24,8 +26,6 @@ Organized by effort, in rough priority/importance order.
   * address charset issues
 * implement '--limit' argument to fetch (stop after x number of items)
 * proper error handling and exit codes; signal handling
-* deploy to heroku (config via env), local heroku setup
-  * need mongodb as service
 * add external persistent queues
   * mongodb? redis? ...?
   * 'fetchQueue' command mode to operate as a worker
