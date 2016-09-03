@@ -5,7 +5,6 @@ Organized by effort, in rough priority/importance order.
 
 ### Low-hanging fruit / Straightforward
 
-* add a run-once-then-quit option to work with heroku's scheduler, thereby avoiding keeping the dyno running constantly.
 * add optional file transport for logger that outputs log level + timestamp, new file for each run.
 * change HTTP UA
 * make require order consistent (external modules then local modules)
