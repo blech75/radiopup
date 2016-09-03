@@ -25,7 +25,7 @@ Organized by effort, in rough priority/importance order.
   * clean up album titles (remove 'Disc x of y', etc.)
   * address charset issues
 * implement '--limit' argument to fetch (stop after x number of items)
-* proper error handling and exit codes; signal handling
+* proper error handling and exit codes
 * add external persistent queues
   * mongodb? redis? ...?
   * 'fetchQueue' command mode to operate as a worker
