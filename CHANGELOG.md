@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 0.3.0 ("Loggerhead")
+
+* Implement proper logging levels and log level setting via config and CLI argument.
+* A bit of internal refactoring to lay the groundwork for future work.
+* Leverage events to more robustly solve race condition and other issues.
+
+
+## 0.2.3
+
+Fix DB/app race condition.
+
+
 ## 0.2.2
 
 Add CHANGELOG and TODO.
