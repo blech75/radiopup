@@ -1,2 +1,2 @@
-# TODO: env config for station, refresh, log level, etc.
-fetcher: radiopup fetch kcrw-eclectic24 -r 120
+# accept args via env vars (and .env file)
+fetcher: radiopup fetch $RADIOPUP_STATION -r $RADIOPUP_REFRESH
