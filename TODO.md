@@ -24,7 +24,7 @@ Organized by effort, in rough priority/importance order.
   * address charset issues
 * implement '--limit' argument to fetch (stop after x number of items)
 * proper error handling and exit codes
-* add external persistent queues
+* add external persistent queues, optimize architecture for free heroku tier
   * mongodb? redis? ...?
   * 'fetchQueue' command mode to operate as a worker
   * 'addToQueue' command mode to add to external queue
