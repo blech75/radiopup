@@ -5,15 +5,17 @@ Organized by effort, in rough priority/importance order.
 
 ### Low-hanging fruit / Straightforward
 
-* add optional file transport for logger that outputs log level + timestamp, new file for each run.
+* make one-shot operation default; replace with "live" option
+* clean up cli/log output a bit more
 * change HTTP UA
+* validate that heroku env is operating with correct node env
 * make require order consistent (external modules then local modules)
 * clean up internal terminology/nomenclature (tracks, songs, tracklist)
 * add editorconfig, etc.
 * add npm dependency check tool
-* lock versions of external dependencies (mongodb)
+* specify versions of external dependencies (mongodb)
 * rename project
-* add readme / requirements
+* add readme, requirements, install/deploy instructions
 * investigate proper npm packaging/versioning/releasing
 
 
@@ -31,6 +33,7 @@ Organized by effort, in rough priority/importance order.
   * 'queueStatus' command mode to report on status
   * HTTP API interface for adding to queues, status, etc.
 * station plugin for WBGO (needs: HTML parsing, date range support, data normalization)
+* add optional file transport for logger that outputs log level + timestamp, new file for each run.
 
 
 ### Random, etc.
