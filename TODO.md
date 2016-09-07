@@ -5,7 +5,9 @@ Organized by effort, in rough priority/importance order.
 
 ### Low-hanging fruit / Straightforward
 
-* make one-shot operation default; replace with "live" option
+Most if not all of these are public release blockers.
+
+* make one-shot operation default; replace with "live" option. reduce confusion.
 * clean up cli/log output a bit more
 * change HTTP UA
 * validate that heroku env is operating with correct node env
@@ -47,7 +49,11 @@ Organized by effort, in rough priority/importance order.
 
 * schema validation
 * add tests w/ HTTP request mocking
-* searching/reporting (CLI interface, HTTP API, front-end client, etc.)
+* browsing/searching/reporting
+  * CLI interface
+  * HTTP API
+  * front-end client
+  * etc.
 * metadata retrieval scheme
 * database migration
 * dockerize
